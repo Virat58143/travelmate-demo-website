@@ -6,5 +6,7 @@ export default defineConfig({
 
    base: '/travelmate-demo-website/', 
   plugins: [react()],
-  
+   build: {
+    outDir: "docs", 
+  },
 });
