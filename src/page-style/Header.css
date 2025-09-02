@@ -1,0 +1,127 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    z-index: 10;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover {
+    background: #ffb703;
+    border-radius: 5px;
+}
+
+/* Hamburger Button */
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* -------------------------------
+   Responsive Design (3 Breakpoints)
+--------------------------------- */
+
+/*  Desktop → Tablet (max 1200px) */
+@media (max-width: 1200px) {
+    nav {
+        padding: 10px 30px;
+    }
+
+    .nav-links {
+        gap: 20px;
+    }
+
+    nav .logo {
+        font-size: 22px;
+    }
+
+    .nav-links li a {
+        font-size: 15px;
+    }
+}
+
+/*  Tablet → Small Tablet (max 992px) */
+@media (max-width: 992px) {
+    nav {
+        padding: 10px 20px;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .nav-links li a {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+}
+
+/*  Mobile (max 768px) */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+}

@@ -1,0 +1,233 @@
+/* Base Styles */
+.contact-page {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+/* Hero Section */
+.contact-hero {
+  position: relative;
+  height: 100vh;
+  background: url('https://media.istockphoto.com/id/475284976/photo/friends-dancing-at-a-summer-sunset-beachparty.jpg?s=612x612&w=0&k=20&c=wjUNWFlyArY1878PM7lFS7fdZ9bNz7hRYfM8KUTPyQ0=') center/cover no-repeat;
+  display: flex;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+.contact-hero::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.55);
+  z-index: 1;
+}
+
+.contact-hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  padding: 0 20px;
+}
+
+.contact-hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.contact-hero p {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+
+/* Info Cards */
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 20px;
+  flex-wrap: wrap;
+}
+
+.info-card {
+  text-align: center;
+  padding: 25px;
+  width: 260px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.info-card img {
+  width: 55px;
+  margin-bottom: 15px;
+}
+
+.info-card:hover {
+  transform: translateY(-10px);
+  background: linear-gradient(135deg, #ff9d6c, #ff6a00);
+  color: white;
+}
+
+/* About & Mission */
+.about-mission {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 60px 10%;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-text h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #ff6a00;
+}
+
+.about-text h3 {
+  margin-top: 20px;
+  color: #ff9500;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.about-image {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Section */
+.contact-container {
+  display: flex;
+  gap: 40px;
+  padding: 60px 10%;
+  flex-wrap: wrap;
+}
+
+.contact-form,
+.contact-map {
+  flex: 1;
+  min-width: 300px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2,
+.contact-map h2 {
+  margin-bottom: 20px;
+  color: #ff6a00;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  font-size: 15px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #ff6a00;
+  box-shadow: 0 0 5px rgba(255, 106, 0, 0.5);
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 14px;
+  background: #ff6a00;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #ff9500;
+}
+
+/* Responsive Breakpoints */
+
+/* Tablets (768px) */
+@media (max-width: 768px) {
+  .contact-hero h1 {
+    font-size: 2.5rem;
+  }
+  .contact-hero p {
+    font-size: 1.1rem;
+  }
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-mission {
+    flex-direction: column;
+    padding: 40px 5%;
+  }
+  .contact-container {
+    flex-direction: column;
+    padding: 40px 5%;
+  }
+}
+
+/* Small Laptops (992px) */
+@media (max-width: 992px) {
+  .contact-hero h1 {
+    font-size: 3rem;
+  }
+  .contact-hero p {
+    font-size: 1.2rem;
+  }
+  .about-mission {
+    gap: 20px;
+  }
+  .contact-info {
+    justify-content: space-between;
+  }
+}
+
+/* Large Screens (1200px) */
+@media (max-width: 1200px) {
+  .contact-hero h1 {
+    font-size: 3.2rem;
+  }
+  .contact-hero p {
+    font-size: 1.25rem;
+  }
+  .about-mission {
+    padding: 50px 8%;
+  }
+  .contact-container {
+    padding: 50px 8%;
+  }
+}

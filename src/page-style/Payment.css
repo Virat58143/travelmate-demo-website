@@ -1,0 +1,157 @@
+.payment-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://png.pngtree.com/thumb_back/fh260/background/20220227/pngtree-sound-waves-in-the-dark-effect-light-design-photo-image_27607546.jpg") no-repeat center center/cover;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    position: relative;
+}
+
+/* Dark overlay for better contrast */
+.payment-page::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.55);
+    backdrop-filter: blur(3px);
+    z-index: 0;
+}
+
+.payment-form {
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 40px 30px;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+/* Form heading */
+.payment-page h1 {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: 0 3px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* Labels */
+.payment-form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.95rem;
+    font-weight: 600;
+    gap: 8px;
+    color: #fff;
+}
+
+/* Inputs */
+.payment-form input {
+    padding: 12px 14px;
+    border: none;
+    border-radius: 12px;
+    font-size: 0.95rem;
+    outline: none;
+    background: rgba(255, 255, 255, 0.25);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.payment-form input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.payment-form input:focus {
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+/* Pay button */
+.btn-pay {
+    background: linear-gradient(135deg, #ff512f, #dd2476);
+    border: none;
+    color: #fff;
+    padding: 14px;
+    font-size: 1rem;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-pay:hover {
+    background: linear-gradient(135deg, #dd2476, #ff512f);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+.btn-pay:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+
+/* Small devices (mobile) */
+@media (max-width: 480px) {
+    .payment-form {
+        padding: 25px 20px;
+        border-radius: 15px;
+        gap: 15px;
+    }
+
+    .payment-page h1 {
+        font-size: 1.6rem;
+        margin-bottom: 20px;
+    }
+
+    .btn-pay {
+        padding: 12px;
+        font-size: 0.95rem;
+    }
+
+    .payment-form input {
+        padding: 10px 12px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Medium devices (tablet) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .payment-form {
+        padding: 35px 25px;
+        max-width: 380px;
+    }
+
+    .payment-page h1 {
+        font-size: 1.8rem;
+    }
+
+    .btn-pay {
+        padding: 13px;
+        font-size: 0.98rem;
+    }
+}
+
+/* Large devices (desktop) */
+@media (min-width: 769px) {
+    .payment-form {
+        max-width: 420px;
+    }
+}
