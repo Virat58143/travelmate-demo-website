@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Virat58143.github.io/travelmate-demo-website/",
+  "homepage":" https://virat58143.github.io/travelmate-demo-website/",
+  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
