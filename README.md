@@ -1,52 +1,99 @@
-<<<<<<< HEAD
-# TravelMate –Tourism Website
+# TravelMate – A Modern Tourism Website
 
-TravelMate is a modern and responsive tourism website developed using HTML, CSS, JavaScript, and React.js. The main aim of this project is to provide users with an engaging platform to explore popular travel destinations, view details, and make bookings easily.
+TravelMate is a fully responsive and interactive tourism website developed using HTML, CSS, JavaScript, and React.js.
+The main aim of this project is to provide users with a smooth, engaging, and user-friendly platform where they can explore destinations, learn about services, book trips, and experience a demo payment flow – all in one place.
 
-The website includes:
+# Key Features
 
-Destination Section – Attractive destination cards with images, descriptions, and prices.
+Home Page
 
-Booking Form – A smooth and simple form to book trips online.
+Attractive landing page with a hero banner and tagline.
 
-Navigation – Clean header and footer with easy navigation for a better user experience.
+Quick navigation to Destinations, About, Booking, and Contact pages.
 
-Responsive Design – Developed using HTML and CSS so that the website works seamlessly on desktop, tablet, and mobile.
+Interactive buttons and smooth animations for better user experience.
 
-Interactivity with JavaScript & React.js – Implemented dynamic features like interactive buttons, real-time updates, and smooth transitions.
+Destinations Page
 
-Technologies Used:
+Displays destination cards with high-quality images, descriptions, travel packages, and prices.
 
-HTML5 → For structuring the web pages.
+Cards are created using React components for reusability and dynamic rendering.
 
-CSS3 → For responsive design and modern styling.
+Users can view details of different tourist spots before booking.
 
-JavaScript (ES6+) → For adding interactivity and dynamic functionality.
+About Page
 
-React.js → For building a component-based, fast, and scalable user interface.
+Provides information about TravelMate’s mission, vision, and services.
 
-Overall, TravelMate acts like a mini tourism portal that demonstrates front-end web development, responsive design, and modern JavaScript frameworks in action.
+Describes the purpose of building the platform and why it is beneficial for travelers.
 
-# Screen Short
+Contact Page
 
-<img width="1350" height="640" alt="image" src="https://github.com/user-attachments/assets/fa1c9d72-9929-4bc6-97a3-a335cdd2227a" />
+A responsive contact form with fields like Name, Email, and Message.
 
-<img width="1338" height="641" alt="image" src="https://github.com/user-attachments/assets/48b9c71e-ad94-4bf2-adb7-4f73ee9034d9" />
+Built-in form validation using JavaScript and React.
 
-<img width="1348" height="643" alt="image" src="https://github.com/user-attachments/assets/164628a8-80ca-4361-baf5-3dcce4b86d5e" />
+Helps users reach out for support or inquiries.
 
-<img width="1319" height="649" alt="image" src="https://github.com/user-attachments/assets/8d2b626c-7af1-483e-996d-d4ef526e80da" />
+Booking Page
 
-<img width="1334" height="605" alt="image" src="https://github.com/user-attachments/assets/287fa414-89d6-4b0f-9503-df09c304f827" />
+Simple and smooth booking form where users can:
 
-<img width="1313" height="636" alt="image" src="https://github.com/user-attachments/assets/e7138987-438c-4dc3-a654-bebfb6fab10e" />
+Select a destination
 
-<img width="1327" height="542" alt="image" src="https://github.com/user-attachments/assets/a762c056-5197-4bd0-81da-0b6fdccd367c" />
+Choose travel dates
 
-<img width="1313" height="595" alt="image" src="https://github.com/user-attachments/assets/b998ee0c-158e-4314-8c75-4f24f2233c66" />
+Enter number of travelers
 
+Pick package type (Standard / Premium)
 
-<img width="1351" height="608" alt="image" src="https://github.com/user-attachments/assets/aa6b98b4-e97a-410f-8e81-b4cf83bea874" />
+Submissions are validated and displayed for user confirmation.
+
+Payment Demo Page
+
+A form-based demo payment page that simulates online payments.
+
+Includes fields for:
+
+Cardholder Name
+
+Card Number
+
+Expiry Date
+
+CVV
+
+UPI ID (optional)
+
+This is not a real payment gateway, but a simulation form to show how a payment system might look in a tourism website.
+
+Responsive Design
+
+The entire website is fully responsive using CSS Flexbox and Grid.
+
+Works seamlessly across desktop, tablet, and mobile devices.
+
+Navigation bar and forms are optimized for all screen sizes.
+
+Interactivity with JavaScript & React.js
+
+Reusable React components for Header, Footer, Destination Cards, and Forms.
+
+Smooth transitions and animations for better UI/UX.
+
+Form validations to ensure correct data entry in Contact, Booking, and Payment pages.
+
+Real-time updates like button clicks, hover effects, and state changes.
+
+Technologies Used
+
+HTML5 → For structuring web pages.
+
+CSS3 → For responsive layouts and modern styling.
+
+JavaScript (ES6+) → For adding interactivity and logic.
+
+React.js → For building a component-based, scalable, and fast user interface.
 
 # React + Vite
 
