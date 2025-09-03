@@ -1,13 +1,13 @@
-## TravelMate – A Modern Tourism Website
+# TravelMate – A Modern Tourism Website
 
-# Website Link :- https://virat58143.github.io/travelmate-demo-website/
+## Website Link :- https://virat58143.github.io/travelmate-demo-website/
 
 TravelMate is a fully responsive and interactive tourism website developed using HTML, CSS, JavaScript, and React.js.
 The main aim of this project is to provide users with a smooth, engaging, and user-friendly platform where they can explore destinations, learn about services, book trips, and experience a demo payment flow – all in one place.
 
-## Key Features
+# Key Features
 
-# Home Page
+## Home Page
 
 Attractive landing page with a hero banner and tagline.
 
@@ -15,7 +15,7 @@ Quick navigation to Destinations, About, Booking, and Contact pages.
 
 Interactive buttons and smooth animations for better user experience.
 
-# Destinations Page
+## Destinations Page
 
 Displays destination cards with high-quality images, descriptions, travel packages, and prices.
 
@@ -23,13 +23,13 @@ Cards are created using React components for reusability and dynamic rendering.
 
 Users can view details of different tourist spots before booking.
 
-# About Page
+## About Page
 
 Provides information about TravelMate’s mission, vision, and services.
 
 Describes the purpose of building the platform and why it is beneficial for travelers.
 
-# Contact Page
+## Contact Page
 
 A responsive contact form with fields like Name, Email, and Message.
 
@@ -37,7 +37,7 @@ Built-in form validation using JavaScript and React.
 
 Helps users reach out for support or inquiries.
 
-# Booking Page
+## Booking Page
 
 Simple and smooth booking form where users can:
 
@@ -51,7 +51,7 @@ Pick package type (Standard / Premium)
 
 Submissions are validated and displayed for user confirmation.
 
-# Payment Demo Page
+## Payment Demo Page
 
 A form-based demo payment page that simulates online payments.
 
@@ -69,7 +69,7 @@ UPI ID (optional)
 
 This is not a real payment gateway, but a simulation form to show how a payment system might look in a tourism website.
 
-# Responsive Design
+## Responsive Design
 
 The entire website is fully responsive using CSS Flexbox and Grid.
 
@@ -77,7 +77,7 @@ Works seamlessly across desktop, tablet, and mobile devices.
 
 Navigation bar and forms are optimized for all screen sizes.
 
-# Interactivity with JavaScript & React.js
+## Interactivity with JavaScript & React.js
 
 Reusable React components for Header, Footer, Destination Cards, and Forms.
 
@@ -87,7 +87,7 @@ Form validations to ensure correct data entry in Contact, Booking, and Payment p
 
 Real-time updates like button clicks, hover effects, and state changes.
 
-# Technologies Used
+## Technologies Used
 
 HTML5 → For structuring web pages.
 
@@ -97,7 +97,7 @@ JavaScript (ES6+) → For adding interactivity and logic.
 
 React.js → For building a component-based, scalable, and fast user interface.
 
-# React + Vite
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
