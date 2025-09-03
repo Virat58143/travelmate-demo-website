@@ -35,7 +35,7 @@ const Home = () => {
           {/* Left Side - Images */}
           <div className="about-images">
             <img
-              src="https://tulumtables.com/images/posts/original/KUR_Coco-beach-party_1600x900%20(1).jpg"
+              src="file:///C:/Users/Admin/OneDrive/Desktop/Project/Tourism%20project/Tourism/public/image/PicA4.webp"
               alt="Travel"
             />
             <img
