@@ -39,7 +39,7 @@ const About = () => {
                     </div>
                     <div className="about-img">
                         <img
-                            src="/image/PicA1.avif"
+                            src={`${import.meta.env.BASE_URL}image/PicA1.avif`}
                             alt="TravelMeat Journey"
                         />
                     </div>
@@ -56,7 +56,7 @@ const About = () => {
                     </div>
                     <div className="about-img">
                         <img
-                            src="/image/PicA2.jpeg"
+                            src={`${import.meta.env.BASE_URL}image/PicA2.jpeg`}
                             alt="TravelMeat Journey"
                         />
                     </div>
@@ -73,7 +73,7 @@ const About = () => {
                     </div>
                     <div className="about-img">
                         <img
-                            src="/image/PicA3.webp"
+                            src={`${import.meta.env.BASE_URL}image/PicA3.webp`}
                             alt="TravelMeat Journey"
                         />
                     </div>
@@ -89,7 +89,7 @@ const About = () => {
                     </div>
                     <div className="about-img">
                         <img
-                            src="/image/PicA4.webp"
+                            src={`${import.meta.env.BASE_URL}image/PicA4.webp`}
                             alt="TravelMeat Journey"
                         />
                     </div>
@@ -118,17 +118,17 @@ const About = () => {
                     <h2>Why Choose TravelMeat?</h2>
                     <div className="features">
                         <div className="feature-card">
-                            <img src="/image/PicA5.png" alt="affordable" />
+                            <img src={`${import.meta.env.BASE_URL}image/PicA5.png`} alt="affordable" />
                             <h4>Affordable Packages</h4>
                             <p>Best travel deals at pocket-friendly prices.</p>
                         </div>
                         <div className="feature-card">
-                            <img src="/image/PicA6.png "alt="support" />
+                            <img src={`${import.meta.env.BASE_URL}image/PicA6.png`} alt="support" />
                             <h4>24/7 Support</h4>
                             <p>We are here for you anytime, anywhere.</p>
                         </div>
                         <div className="feature-card">
-                            <img src="/image/PicA7.png" alt="trusted" />
+                            <img src={`${import.meta.env.BASE_URL}image/PicA7.png`} alt="trusted" />
                             <h4>Trusted by Travelers</h4>
                             <p>Thousands of happy travelers worldwide 🌍.</p>
                         </div>

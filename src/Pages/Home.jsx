@@ -35,19 +35,19 @@ const Home = () => {
           {/* Left Side - Images */}
           <div className="about-images">
             <img
-              src="/image/Pic1.jpeg"
+              src={`${import.meta.env.BASE_URL}image/Pic1.jpeg`}
               alt="Travel"
             />
             <img
-              src="/image/Pic2.jpeg"
+              src={`${import.meta.env.BASE_URL}image/Pic2.jpeg`}
               alt="Tourist"
             />
             <img
-              src="/image/Pic3.jpeg"
+              src={`${import.meta.env.BASE_URL}image/Pic3.jpeg`}
               alt="Adventure"
             />
             <img
-              src="/image/Pic4.jpeg"
+              src={`${import.meta.env.BASE_URL}image/Pic4.jpeg`}
               alt="Desert"
             />
           </div>
@@ -81,7 +81,7 @@ const Home = () => {
           {/* Card 1 */}
           <div className="card">
             <img
-              src="/image/Pic5.webp"
+              src={`${import.meta.env.BASE_URL}image/Pic5.webp`}
               alt="Beach"
             />
             <h3>Waterfalls & Lakes </h3>
@@ -91,7 +91,7 @@ const Home = () => {
           {/* Card 2 */}
           <div className="card">
             <img
-              src="/image/Pic6.jpg"
+              src={`${import.meta.env.BASE_URL}image/Pic6.jpg`}
               alt="Mountains"
             />
             <h3>Adventure Treks </h3>
@@ -101,7 +101,7 @@ const Home = () => {
           {/* Card 3 */}
           <div className="card">
             <img
-              src="/image/Pic7.jpg"
+              src={`${import.meta.env.BASE_URL}image/Pic7.jpg`}
               alt="Temple"
             />
             <h3>Prem Mandir</h3>
@@ -111,7 +111,7 @@ const Home = () => {
           {/* Card 1 */}
           <div className="card">
             <img
-              src="/image/Pic8.jpg"
+              src={`${import.meta.env.BASE_URL}image/Pic8.jpg`}
               alt="Beach"
             />
             <h3>Party Beaches</h3>
@@ -122,7 +122,7 @@ const Home = () => {
           {/* Card 2 */}
           <div className="card">
             <img
-              src="/image/Pic9.jpg"
+              src={`${import.meta.env.BASE_URL}image/Pic9.jpg`}
               alt="Cultural Heritage"
             />
             <h3>Cultural Heritage</h3>
@@ -132,7 +132,7 @@ const Home = () => {
           {/* Card 3 */}
           <div className="card">
             <img
-              src="/image/Pic10.avif"
+              src={`${import.meta.env.BASE_URL}image/Pic10.avif`}
             />
             <h3>Wildlife Safaris</h3>
             <p>Experience the thrill of spotting tigers, elephants, and exotic birds in their natural habitat. A perfect escape for wildlife photographers and nature explorers.</p>
@@ -178,12 +178,12 @@ const Home = () => {
 
           <div className="customer-info">
             <img
-              src="/image/Pic11.jpeg"
+              src={`${import.meta.env.BASE_URL}image/Pic11.jpeg`}
               alt="customer"
               className="customer-img"
             />
             <img
-              src="/image/Pic12.jpeg"
+              src={`${import.meta.env.BASE_URL}image/Pic12.jpeg`}
               alt="customer"
               className="customer-img"
             />
@@ -193,7 +193,7 @@ const Home = () => {
 
         <div className="tourism-image">
           <img
-            src="/image/Pic13.png"
+            src={`${import.meta.env.BASE_URL}image/Pic13.png`}
             alt="Tourism Experience"
           />
         </div>

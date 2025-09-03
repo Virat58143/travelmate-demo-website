@@ -14,14 +14,14 @@ const Destinations = () => {
   }, []);
 
   const places = [
-    { id: 1, name: "Paris, France", img:  "/image/PicD1.jpeg", desc: "The city of love with Eiffel Tower, museums, and stunning streets." },
-    { id: 2, name: "Maldives", img: "/image/PicD2.jpeg", desc: "Tropical paradise famous for beaches, blue lagoons, and coral reefs." },
-    { id: 3, name: "Bali, Indonesia", img: "/image/PicD3.jpeg", desc: "A blend of culture, temples, rice terraces, and serene beaches." },
-    { id: 4, name: "Dubai, UAE", img: "/image/PicD4.jpg", desc: "Luxury shopping, ultramodern architecture, and vibrant nightlife." },
-    { id: 5, name: "Santorini, Greece", img:"/image/PicD5.jpg", desc: "Whitewashed houses, blue domes, and breathtaking sunset views." },
-    { id: 6, name: "Switzerland", img:"/image/PicD6.jpeg", desc: "Heaven for nature lovers with Alps, lakes, and scenic train rides." },
-    { id: 7, name: "New York, USA", img: "/image/PicD7.webp", desc: "The city that never sleeps with Times Square and Statue of Liberty." },
-    { id: 8, name: "Tokyo, Japan", img: "/image/PicD8.jpeg", desc: "Blend of tradition and technology with temples and skyscrapers." }
+    { id: 1, name: "Paris, France", img:  `${import.meta.env.BASE_URL}image/PicD1.jpeg`, desc: "The city of love with Eiffel Tower, museums, and stunning streets." },
+    { id: 2, name: "Maldives", img: `${import.meta.env.BASE_URL}image/PicD2.jpeg`, desc: "Tropical paradise famous for beaches, blue lagoons, and coral reefs." },
+    { id: 3, name: "Bali, Indonesia", img: `${import.meta.env.BASE_URL}image/PicD3.jpeg`, desc: "A blend of culture, temples, rice terraces, and serene beaches." },
+    { id: 4, name: "Dubai, UAE", img: `${import.meta.env.BASE_URL}image/PicD4.jpg` , desc: "Luxury shopping, ultramodern architecture, and vibrant nightlife." },
+    { id: 5, name: "Santorini, Greece", img: `${import.meta.env.BASE_URL}image/PicD5.jpg`, desc: "Whitewashed houses, blue domes, and breathtaking sunset views." },
+    { id: 6, name: "Switzerland", img: `${import.meta.env.BASE_URL}image/PicD6.jpeg`, desc: "Heaven for nature lovers with Alps, lakes, and scenic train rides." },
+    { id: 7, name: "New York, USA", img: `${import.meta.env.BASE_URL}image/PicD7.webp`, desc: "The city that never sleeps with Times Square and Statue of Liberty." },
+    { id: 8, name: "Tokyo, Japan", img: `${import.meta.env.BASE_URL}image/PicD8.jpeg`, desc: "Blend of tradition and technology with temples and skyscrapers." }
   ];
 
   // Book Now click handler → scroll top + navigate

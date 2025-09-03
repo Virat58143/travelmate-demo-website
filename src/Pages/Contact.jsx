@@ -24,17 +24,17 @@ const Contact = () => {
         {/* Contact Info */}
         <section className="contact-info">
           <div className="info-card">
-            <img src="/image/PicC1.png" alt="location" />
+            <img src={`${import.meta.env.BASE_URL}image/PicC1.png`} alt="location" />
             <h3>Our Office</h3>
             <p>123 Travel Street, Ghaziabad, India</p>
           </div>
           <div className="info-card">
-            <img src="/image/PicC2.png" alt="email" />
+            <img src={`${import.meta.env.BASE_URL}image/PicC2.png`} alt="email" />
             <h3>Email Us</h3>
             <p>support@travelmate.com</p>
           </div>
           <div className="info-card">
-            <img src="/image/PicC3.png" alt="phone" />
+            <img src={`${import.meta.env.BASE_URL}image/PicC3.png`} alt="phone" />
             <h3>Call Us</h3>
             <p>+91 9876543210</p>
           </div>
@@ -58,7 +58,7 @@ const Contact = () => {
           </div>
           <div className="about-image">
             <img
-              src="/image/PicC4.jpeg"
+              src={`${import.meta.env.BASE_URL}image/PicC4.jpeg`}
               alt="About TravelMeat"
             />
           </div>

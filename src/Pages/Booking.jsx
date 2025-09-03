@@ -8,56 +8,56 @@ const places = [
     {
         id: 1,
         name: "Paris, France",
-        img: "/image/PicD1.jpeg",
+        img: `${import.meta.env.BASE_URL}image/PicD1.jpeg`,
         desc: "Paris, the city of love, is famous for its iconic Eiffel Tower, world-class museums like Louvre, charming streets filled with cafes, and exquisite French cuisine. Strolling along the Seine River and visiting Montmartre adds to its romantic charm.",
         price: "1,20,000"
     },
     {
         id: 2,
         name: "Maldives",
-        img: "/image/PicD2.jpeg",
+        img: `${import.meta.env.BASE_URL}image/PicD2.jpeg`,
         desc: "The Maldives is a tropical paradise known for its crystal-clear turquoise waters, overwater bungalows, colorful coral reefs, and serene beaches. It’s perfect for snorkeling, diving, or simply relaxing in a luxurious island resort.",
         price: "1,20,000"
     },
     {
         id: 3,
         name: "Bali, Indonesia",
-        img: "/image/PicD3.jpeg",
+        img:  `${import.meta.env.BASE_URL}image/PicD3.jpeg`,
         desc: "Bali offers a rich cultural experience with its ancient temples, traditional ceremonies, lush rice terraces, and vibrant arts scene. Its serene beaches and wellness retreats make it a haven for relaxation and adventure alike.",
         price: "1,20,000"
     },
     {
         id: 4,
         name: "Dubai, UAE",
-        img: "/image/PicD4.jpg",
+        img: `${import.meta.env.BASE_URL}image/PicD4.jpg`,
         desc: "Dubai is a modern marvel with ultramodern skyscrapers, luxury shopping, desert safaris, and extravagant entertainment options. Don’t miss landmarks like Burj Khalifa, Palm Jumeirah, and the futuristic Museum of the Future.",
         price: "1,20,000"
     },
     {
         id: 5,
         name: "Santorini, Greece",
-        img: "/image/PicD5.jpg",
+        img: `${import.meta.env.BASE_URL}image/PicD5.jpg`,
         desc: "Santorini is a breathtaking island famous for its whitewashed houses, blue-domed churches, stunning sunsets over the caldera, and crystal-clear waters. It’s perfect for romantic getaways, photography, and exploring charming villages.",
         price: "1,20,000"
     },
     {
         id: 6,
         name: "Switzerland",
-        img: "/image/PicD6.jpeg",
+        img: `${import.meta.env.BASE_URL}image/PicD6.jpeg`,
         desc: "Switzerland is a paradise for nature lovers with its majestic Alps, sparkling lakes, scenic train rides, and charming villages. Activities like skiing, hiking, and exploring chocolate and cheese factories add to the experience.",
         price: "1,20,000"
     },
     {
         id: 7,
         name: "New York, USA",
-        img: "/image/PicD7.webp",
+        img: `${import.meta.env.BASE_URL}image/PicD7.webp`,
         desc: "New York City, the city that never sleeps, is a hub of culture, fashion, and entertainment. Explore Times Square, Statue of Liberty, Broadway shows, Central Park, and a diverse culinary scene that reflects its multicultural vibe.",
         price: "1,20,000"
     },
     {
         id: 8,
         name: "Tokyo, Japan",
-        img: "/image/PicD8.jpeg",
+        img: `${import.meta.env.BASE_URL}image/PicD8.jpeg`,
         desc: "Tokyo combines traditional and modern culture with ancient temples, futuristic skyscrapers, bustling streets, and world-renowned cuisine. Experience vibrant districts like Shibuya, historic Asakusa, and serene gardens for a complete Japanese adventure.",
         price: "1,20,000"
     }
