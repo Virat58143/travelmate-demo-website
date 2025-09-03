@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
 
-   base: '/travelmate-demo-website/', 
+  base: process.env.NODE_ENV === "production" ? "/travelmate-demo-website/" : "/", 
   plugins: [react()],
    build: {
     outDir: "docs", 
