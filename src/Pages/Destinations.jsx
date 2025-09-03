@@ -14,14 +14,14 @@ const Destinations = () => {
   }, []);
 
   const places = [
-    { id: 1, name: "Paris, France", img: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80", desc: "The city of love with Eiffel Tower, museums, and stunning streets." },
-    { id: 2, name: "Maldives", img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80", desc: "Tropical paradise famous for beaches, blue lagoons, and coral reefs." },
-    { id: 3, name: "Bali, Indonesia", img: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=80", desc: "A blend of culture, temples, rice terraces, and serene beaches." },
-    { id: 4, name: "Dubai, UAE", img: "https://landmarksarchitects.com/wp-content/uploads/2025/01/UAE-Landmarks-Museum-of-the-Future-1212025.jpg", desc: "Luxury shopping, ultramodern architecture, and vibrant nightlife." },
-    { id: 5, name: "Santorini, Greece", img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80", desc: "Whitewashed houses, blue domes, and breathtaking sunset views." },
-    { id: 6, name: "Switzerland", img: "https://images.unsplash.com/photo-1508921912186-1d1a45ebb3c1?w=800&q=80", desc: "Heaven for nature lovers with Alps, lakes, and scenic train rides." },
-    { id: 7, name: "New York, USA", img: "https://www.telegraph.co.uk/content/dam/Travel/Destinations/North%20America/USA/New%20York/newyork-attractions-GettyImages-686726393.jpg?imwidth=640", desc: "The city that never sleeps with Times Square and Statue of Liberty." },
-    { id: 8, name: "Tokyo, Japan", img: "https://images.unsplash.com/photo-1549693578-d683be217e58?w=800&q=80", desc: "Blend of tradition and technology with temples and skyscrapers." }
+    { id: 1, name: "Paris, France", img:  "/image/PicD1.jpeg", desc: "The city of love with Eiffel Tower, museums, and stunning streets." },
+    { id: 2, name: "Maldives", img: "/image/PicD2.jpeg", desc: "Tropical paradise famous for beaches, blue lagoons, and coral reefs." },
+    { id: 3, name: "Bali, Indonesia", img: "/image/PicD3.jpeg", desc: "A blend of culture, temples, rice terraces, and serene beaches." },
+    { id: 4, name: "Dubai, UAE", img: "/image/PicD4.jpg", desc: "Luxury shopping, ultramodern architecture, and vibrant nightlife." },
+    { id: 5, name: "Santorini, Greece", img:"/image/PicD5.jpg", desc: "Whitewashed houses, blue domes, and breathtaking sunset views." },
+    { id: 6, name: "Switzerland", img:"/image/PicD6.jpeg", desc: "Heaven for nature lovers with Alps, lakes, and scenic train rides." },
+    { id: 7, name: "New York, USA", img: "/image/PicD7.webp", desc: "The city that never sleeps with Times Square and Statue of Liberty." },
+    { id: 8, name: "Tokyo, Japan", img: "/image/PicD8.jpeg", desc: "Blend of tradition and technology with temples and skyscrapers." }
   ];
 
   // Book Now click handler → scroll top + navigate

@@ -24,17 +24,17 @@ const Contact = () => {
         {/* Contact Info */}
         <section className="contact-info">
           <div className="info-card">
-            <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="location" />
+            <img src="/image/PicC1.png" alt="location" />
             <h3>Our Office</h3>
             <p>123 Travel Street, Ghaziabad, India</p>
           </div>
           <div className="info-card">
-            <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="email" />
+            <img src="/image/PicC2.png" alt="email" />
             <h3>Email Us</h3>
             <p>support@travelmate.com</p>
           </div>
           <div className="info-card">
-            <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="phone" />
+            <img src="/image/PicC3.png" alt="phone" />
             <h3>Call Us</h3>
             <p>+91 9876543210</p>
           </div>
@@ -58,7 +58,7 @@ const Contact = () => {
           </div>
           <div className="about-image">
             <img
-              src="https://images.unsplash.com/photo-1575986767340-5d17ae767ab0?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dG91cmlzdHxlbnwwfHwwfHx8MA%3D%3D"
+              src="/image/PicC4.jpeg"
               alt="About TravelMeat"
             />
           </div>

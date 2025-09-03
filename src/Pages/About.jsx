@@ -3,6 +3,8 @@ import Header from "../Components/Header";
 import "../page-style/About.css";
 import CtaSection from "../Components/Cta-section";
 import Footer from "../Components/Footer";
+
+
 const About = () => {
 
 
@@ -37,7 +39,7 @@ const About = () => {
                     </div>
                     <div className="about-img">
                         <img
-                            src="https://plus.unsplash.com/premium_photo-1663090859753-5526d0e6a080?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGdyb3VwJTIwdHJhdmVsfGVufDB8fDB8fHww"
+                            src="/image/PicA1.avif"
                             alt="TravelMeat Journey"
                         />
                     </div>
@@ -54,7 +56,7 @@ const About = () => {
                     </div>
                     <div className="about-img">
                         <img
-                            src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1t9h5Y.img?w=800&h=415&q=60&m=2&f=jpg"
+                            src="/image/PicA2.jpeg"
                             alt="TravelMeat Journey"
                         />
                     </div>
@@ -71,7 +73,7 @@ const About = () => {
                     </div>
                     <div className="about-img">
                         <img
-                            src="https://res.cloudinary.com/purnesh/image/upload/w_540,f_auto,q_auto:eco,c_limit/travelwithaditi-245387570-230475702478582-1756825887847055093-n-1.jpg"
+                            src="/image/PicA3.webp"
                             alt="TravelMeat Journey"
                         />
                     </div>
@@ -87,7 +89,7 @@ const About = () => {
                     </div>
                     <div className="about-img">
                         <img
-                            src="https://junglecamp.in/uploads/2024/12/top-adventure-sports-destinations-in-india-to-thrill-your-senses.webp"
+                            src="/image/PicA4.webp"
                             alt="TravelMeat Journey"
                         />
                     </div>
@@ -116,17 +118,17 @@ const About = () => {
                     <h2>Why Choose TravelMeat?</h2>
                     <div className="features">
                         <div className="feature-card">
-                            <img src="https://cdn-icons-png.flaticon.com/512/854/854878.png" alt="affordable" />
+                            <img src="/image/PicA5.png" alt="affordable" />
                             <h4>Affordable Packages</h4>
                             <p>Best travel deals at pocket-friendly prices.</p>
                         </div>
                         <div className="feature-card">
-                            <img src="https://cdn-icons-png.flaticon.com/512/1483/1483336.png" alt="support" />
+                            <img src="/image/PicA6.png "alt="support" />
                             <h4>24/7 Support</h4>
                             <p>We are here for you anytime, anywhere.</p>
                         </div>
                         <div className="feature-card">
-                            <img src="https://cdn-icons-png.flaticon.com/512/747/747310.png" alt="trusted" />
+                            <img src="/image/PicA7.png" alt="trusted" />
                             <h4>Trusted by Travelers</h4>
                             <p>Thousands of happy travelers worldwide 🌍.</p>
                         </div>

@@ -10,6 +10,8 @@ import CtaSection from "../Components/Cta-section";
 
 const Home = () => {
 
+  
+
   return (
     <>
 
@@ -33,19 +35,19 @@ const Home = () => {
           {/* Left Side - Images */}
           <div className="about-images">
             <img
-              src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+              src="/image/Pic1.jpeg"
               alt="Travel"
             />
             <img
-              src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff"
+              src="/image/Pic2.jpeg"
               alt="Tourist"
             />
             <img
-              src="https://images.unsplash.com/photo-1501785888041-af3ef285b470"
+              src="/image/Pic3.jpeg"
               alt="Adventure"
             />
             <img
-              src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+              src="/image/Pic4.jpeg"
               alt="Desert"
             />
           </div>
@@ -79,7 +81,7 @@ const Home = () => {
           {/* Card 1 */}
           <div className="card">
             <img
-              src="https://www.shutterstock.com/image-photo/waterfalls-flowing-lake-rivers-hidden-260nw-657703993.jpg"
+              src="/image/Pic5.webp"
               alt="Beach"
             />
             <h3>Waterfalls & Lakes </h3>
@@ -89,7 +91,7 @@ const Home = () => {
           {/* Card 2 */}
           <div className="card">
             <img
-              src="https://wallpapersok.com/images/hd/beautiful-nature-scenery-with-majestic-mountains-njlzgprn5x1isczu.jpg"
+              src="/image/Pic6.jpg"
               alt="Mountains"
             />
             <h3>Adventure Treks </h3>
@@ -99,7 +101,7 @@ const Home = () => {
           {/* Card 3 */}
           <div className="card">
             <img
-              src="https://t4.ftcdn.net/jpg/07/77/85/11/360_F_777851132_uP0c1yuzJZT1fwEoKCKV9XUZwO6AMAUT.jpg"
+              src="/image/Pic7.jpg"
               alt="Temple"
             />
             <h3>Prem Mandir</h3>
@@ -109,7 +111,7 @@ const Home = () => {
           {/* Card 1 */}
           <div className="card">
             <img
-              src="https://media-cdn.tripadvisor.com/media/photo-s/17/de/fe/ff/beach-party-arashi-beach.jpg"
+              src="/image/Pic8.jpg"
               alt="Beach"
             />
             <h3>Party Beaches</h3>
@@ -120,7 +122,7 @@ const Home = () => {
           {/* Card 2 */}
           <div className="card">
             <img
-              src="https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,fl_progressive,q_auto,w_1024/670f89bfa37838001daf06fb.jpg"
+              src="/image/Pic9.jpg"
               alt="Cultural Heritage"
             />
             <h3>Cultural Heritage</h3>
@@ -130,8 +132,7 @@ const Home = () => {
           {/* Card 3 */}
           <div className="card">
             <img
-              src="https://media.assettype.com/outlooktraveller%2F2025-01-07%2Fphpxwi5p%2Fshutterstock2553418839.jpg?w=480&auto=format%2Ccompress&fit=max"
-              alt="Wildlife Safaris"
+              src="/image/Pic10.avif"
             />
             <h3>Wildlife Safaris</h3>
             <p>Experience the thrill of spotting tigers, elephants, and exotic birds in their natural habitat. A perfect escape for wildlife photographers and nature explorers.</p>
@@ -177,12 +178,12 @@ const Home = () => {
 
           <div className="customer-info">
             <img
-              src="https://i.pravatar.cc/50?img=12"
+              src="/image/Pic11.jpeg"
               alt="customer"
               className="customer-img"
             />
             <img
-              src="https://i.pravatar.cc/50?img=13"
+              src="/image/Pic12.jpeg"
               alt="customer"
               className="customer-img"
             />
@@ -192,7 +193,7 @@ const Home = () => {
 
         <div className="tourism-image">
           <img
-            src="https://websitedemos.net/travel-agency-04/wp-content/uploads/sites/1521/2025/03/image-6.png"
+            src="/image/Pic13.png"
             alt="Tourism Experience"
           />
         </div>

@@ -1,7 +1,7 @@
 .destinations-hero {
   position: relative;
   height: 100vh;
-  background: url('https://tulumtables.com/images/posts/original/KUR_Coco-beach-party_1600x900%20(1).jpg') center/cover no-repeat;
+  background: url('/public/image/PicD9.jpg') center/cover no-repeat;
   display: flex;
   background-attachment: fixed;
   justify-content: center;

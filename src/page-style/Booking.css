@@ -13,7 +13,7 @@
 .booking-hero {
     position: relative;
     height: 100vh;
-    background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_URm_j8JXrpOurHBqFQGpPJP8vEA2gAMjUA01jklYprgbn_lAKe0rjaMLE265gN-8rkHwkXi3sUc8NYbklWhhBaG1RS24X3HxAUeoCEpRmaD_yKCcO9jGn8cnGI6D__8HFkcupVVYFiY/s1600/Goa-Beach-Party.jpg') center/cover no-repeat;
+    background: url('/public/image/PicB1.jpg') center/cover no-repeat;
     display: flex;
     background-attachment: fixed;
     justify-content: center;

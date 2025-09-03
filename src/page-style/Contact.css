@@ -8,7 +8,7 @@
 .contact-hero {
   position: relative;
   height: 100vh;
-  background: url('https://media.istockphoto.com/id/475284976/photo/friends-dancing-at-a-summer-sunset-beachparty.jpg?s=612x612&w=0&k=20&c=wjUNWFlyArY1878PM7lFS7fdZ9bNz7hRYfM8KUTPyQ0=') center/cover no-repeat;
+  background: url('/public/image/PicC5.jpg') center/cover no-repeat;
   display: flex;
   background-attachment: fixed;
   justify-content: center;
