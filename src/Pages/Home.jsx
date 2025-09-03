@@ -35,7 +35,7 @@ const Home = () => {
           {/* Left Side - Images */}
           <div className="about-images">
             <img
-              src="/image/Pic1.jpeg"
+              src={`${import.meta.env.BASE_URL}image/Pic1.jpeg`}
               alt="Travel"
             />
             <img
