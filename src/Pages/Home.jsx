@@ -35,7 +35,7 @@ const Home = () => {
           {/* Left Side - Images */}
           <div className="about-images">
             <img
-              src="file:///C:/Users/Admin/OneDrive/Desktop/Project/Tourism%20project/Tourism/public/image/PicA4.webp"
+              src="/image/Pic1.jpeg"
               alt="Travel"
             />
             <img
